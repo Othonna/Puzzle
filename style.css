@@ -5,6 +5,7 @@
     border: solid;
     background-color:grey;
     border-radius: 6px;
+    margin: auto;
 }
 .dragWapper {
     position: absolute;

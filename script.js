@@ -16,14 +16,18 @@ On devra utiliser Github. Voici la liste des fonctionnalités à implémenter :
 - BIG BONUS: Adapter le jeu pour que cela fonctionne avec une image (à voir si on peut découper une image en ligne)
   https://postcron.com/image-splitter/editor/en/upload-image*/
 
-  var emptyBlock = $('#block0_0');
-
 
 $('.puzzle div').click(function () {
-    var left = $(this).css('top');
-    var top = $(this).css('left');
-    console.log(left);
-    console.log(top);
+    var currentY = $(this).css('top');
+    var currentX = $(this).css('left');
+    
+    // récuperer la position du bloc vide
+    var emptyX = $('#block0_0').css('left');
+    var emptyY = $('#block0_0').css('top');
+    // inverser la position des blocs
+    $(this).css({top: emptyX, left: emptyY});
+    $('#block0_0').css({ top: currentX, left: currentY });
 });
+
 
 
