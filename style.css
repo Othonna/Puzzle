@@ -15,6 +15,8 @@
     border: solid;
     background-color: green;
     border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
 }
 .dragWapper0 {
     position: absolute;
@@ -25,56 +27,69 @@
 }
 
 #block0_1 {
-    left: 100px;
+    top: 0px;
+    left: 0px;
 }
 #block0_2 {
-    left: 200px;
+    top: 0px;
+    left: 100px;
 }
 #block0_3 {
-    left: 300px;
+    top: 0px;
+    left: 200px;
 }
 #block1_0 {
-    top: 100px;
+    top: 0px;
+    left: 300px;
 }
 #block1_1 {
     top: 100px;
-    left: 100px;
+    left: 0px;
 }
 #block1_2 {
     top: 100px;
-    left: 200px;
+    left: 100px;
 }
 #block1_3 {
     top: 100px;
-    left: 300px;
+    left: 200px;
 }
 #block2_0 {
-    top: 200px;
+    top: 100px;
+    left: 300px;
 }
 #block2_1 {
     top: 200px;
-    left: 100px;
+    left: 0px;
 }
 #block2_2 {
     top: 200px;
-    left: 200px;
+    left: 100px;
 }
 #block2_3 {
     top: 200px;
-    left: 300px;
+    left: 200px;
 }
 #block3_0 {
-    top: 300px;
+    top: 200px;
+    left: 300px;
 }
 #block3_1 {
     top: 300px;
-    left: 100px;
+    left: 0px;
 }
 #block3_2 {
     top: 300px;
-    left: 200px;
+    left: 100px;
 }
 #block3_3 {
     top: 300px;
+    left: 200px;
+}
+#block0_0 {
+    top: 300px;
     left: 300px;
+    text-align: center;
+    border: solid;
+    border-radius: 8px;
 }
